@@ -1,52 +1,43 @@
-# Docker Info Bash Script to _LINUX_
+# Script Bash de Información de Docker para _LINUX_
 
-This is a simple Bash script that displays key Docker information in your system:
+Este es un script Bash simple que muestra información clave de Docker en tu sistema:
 
-- 📦 Docker images
-- ▶️ Running containers
-- 📋 All containers (running and stopped)
+- 📦 Imágenes de Docker  
+- ▶️ Contenedores en ejecución  
+- 📋 Todos los contenedores (en ejecución y detenidos)
 
+## Requisitos
 
-## Requirements
+- Docker instalado y en ejecución  
+- Shell Bash (probado con Bash 4+)
 
-- Docker installed and running
-- Bash shell (tested with Bash 4+)
+## Qué Hace
 
+El script muestra:
 
-## What It Does
+1. **Todas las imágenes de Docker** (`docker images`)
+2. **Contenedores en ejecución** (`docker ps`)
+3. **Todos los contenedores** (`docker ps -a`)
 
-The script shows:
+## Cómo Usarlo
 
-1. **All Docker images** (`docker images`)
-2. **Running containers** (`docker ps`)
-3. **All containers** (`docker ps -a`)
-
-
-
-## How to Use
-
-1. **Clone the repository**:
+1. **Clonar el repositorio**:
 
    ```bash
    git clone https://github.com/santimartinezzgb/dockerinfo.git
    cd dockerinfo
+Hacer el script ejecutable
 
-2. **Make the script executable**
+bash
+Copiar código
+chmod +x dockerinfo.sh
+Ejecutar el script
 
-   ```bash
-   chmod +x dockerinfo.sh
-   ```
-3. **Run the script**
+bash
+Copiar código
+./dockerinfo.sh
 
-   ```bash
-   ./dockerinfo.sh
-   ```
+## Autor
+Santi Martínez
 
 
-## Future improvements
-
-   Add the option for windows
-
-## License
-This project is licensed under the MIT License. See the LICENSE
-file for more details.
