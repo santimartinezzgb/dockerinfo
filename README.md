@@ -28,7 +28,7 @@ The script shows:
 1. **Clone the repository**:
 
    ```bash
-   git clone https://github.com/smz7z/dockerinfo.git
+   git clone https://github.com/santimartinezzgb/dockerinfo.git
    cd dockerinfo
 
 2. **Make the script executable**
