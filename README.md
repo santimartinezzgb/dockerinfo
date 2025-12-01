@@ -39,6 +39,20 @@ chmod +x dockerinfo.sh
 ./dockerinfo.sh
 ```
 
+4. **Crear un "acceso directo"**
+   Crear en .bashrc un método para poder acceder a la información que proporciona este comando desde cualquier directorio.
+   ```bash
+   dockerinfo() {
+    local script_dir="tu-ruta/dockerinfo"
+    if [[ -x "$script_dir/dockerinfo.sh" ]]; then
+        "$script_dir/dockerinfo.sh"
+    else
+        echo "Error: no se puede ejecutar $script_dir/dockerinfo.sh"
+    fi
+   }
+   ```
+   
+
 ## Autor
 Santi Martínez
 
