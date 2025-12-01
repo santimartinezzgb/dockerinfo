@@ -42,4 +42,7 @@ chmod +x dockerinfo.sh
 ## Autor
 Santi Martínez
 
+### Linkedin
+https://www.linkedin.com/in/santiago-mart%C3%ADnez-gonz%C3%A1lez-besada-bb6467335/
+
 
