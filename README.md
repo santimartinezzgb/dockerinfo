@@ -26,16 +26,18 @@ El script muestra:
    ```bash
    git clone https://github.com/santimartinezzgb/dockerinfo.git
    cd dockerinfo
-Hacer el script ejecutable
+   ```
+2. **Hacer el script ejecutable**
 
-bash
-Copiar código
+```bash
 chmod +x dockerinfo.sh
-Ejecutar el script
+```
 
-bash
-Copiar código
+3. **Ejecutar el script**
+
+```bash
 ./dockerinfo.sh
+```
 
 ## Autor
 Santi Martínez
