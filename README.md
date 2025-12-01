@@ -40,6 +40,7 @@ chmod +x dockerinfo.sh
 ```
 
 4. **Crear un "acceso directo"**
+   
    Crear en .bashrc un método para poder acceder a la información que proporciona este comando desde cualquier directorio.
    ```bash
    dockerinfo() {
