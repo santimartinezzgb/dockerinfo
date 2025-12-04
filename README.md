@@ -1,52 +1,52 @@
-# Docker Info Bash Script to _LINUX_
+# DockerInfo
 
-This is a simple Bash script that displays key Docker information in your system:
+Script simple y visual para mostrar información de Docker en tu terminal.
 
-- 📦 Docker images
-- ▶️ Running containers
-- 📋 All containers (running and stopped)
+## Características
 
+- Muestra imágenes Docker
+- Contenedores activos y detenidos
+- Volúmenes
+- Redes
+- Salida con colores
+- Tres modos: normal, compacto y JSON
 
-## Requirements
+## Instalación
 
-- Docker installed and running
-- Bash shell (tested with Bash 4+)
+```bash
+git clone https://github.com/santimartinezzgb/dockerinfo.git
+cd dockerinfo
+chmod +x dockerinfo.sh
+```
 
+## Uso
 
-## What It Does
+```bash
+# Modo normal (por defecto)
+./dockerinfo.sh
 
-The script shows:
+# Modo compacto
+./dockerinfo.sh -c
 
-1. **All Docker images** (`docker images`)
-2. **Running containers** (`docker ps`)
-3. **All containers** (`docker ps -a`)
+# Salida JSON
+./dockerinfo.sh -j
 
+# Ver ayuda
+./dockerinfo.sh -h
+```
 
+## 📋 Requisitos
 
-## How to Use
+- Docker instalado y ejecutándose
+- Bash 4.0+
+- Permisos para acceder a Docker
 
-1. **Clone the repository**:
+## 📄 Licencia
 
-   ```bash
-   git clone https://github.com/santimartinezzgb/dockerinfo.git
-   cd dockerinfo
+MIT License - ver archivo [LICENSE](LICENSE)
 
-2. **Make the script executable**
+## 👤 Autor
 
-   ```bash
-   chmod +x dockerinfo.sh
-   ```
-3. **Run the script**
-
-   ```bash
-   ./dockerinfo.sh
-   ```
-
-
-## Future improvements
-
-   Add the option for windows
-
-## License
+**Santiago Martinez** - [@santimartinezzgb](https://github.com/santimartinezzgb)
 This project is licensed under the MIT License. See the LICENSE
 file for more details.
