@@ -53,17 +53,10 @@ alias dij='dockerinfo -j'
 Con esta implementación, el uso en terminal será:
 
 ```bash
-# Modo normal (por defecto)
-dockerinfo o di
-
-# Modo compacto
-dockerinfo -c o dic
-
-# Salida JSON
-dockerinfo -j o dij
-
-# Ver ayuda
-dockerinfo -h
+dockerinfo      # o: di     - Modo normal
+dockerinfo -c   # o: dic    - Modo compacto
+dockerinfo -j   # o: dij    - Salida JSON
+dockerinfo -h   #           - Ver ayuda
 ```
 
 ## Requisitos
