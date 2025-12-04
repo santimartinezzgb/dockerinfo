@@ -35,17 +35,17 @@ chmod +x dockerinfo.sh
 ./dockerinfo.sh -h
 ```
 
-## 📋 Requisitos
+## Requisitos
 
 - Docker instalado y ejecutándose
 - Bash 4.0+
 - Permisos para acceder a Docker
 
-## 📄 Licencia
+## Licencia
 
 MIT License - ver archivo [LICENSE](LICENSE)
 
-## 👤 Autor
+## Autor
 
 **Santiago Martinez** - [@santimartinezzgb](https://github.com/santimartinezzgb)
 This project is licensed under the MIT License. See the LICENSE
