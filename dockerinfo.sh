@@ -1,8 +1,4 @@
 #!/bin/bash
-#
-# dockerinfo.sh v2.0.0
-# Muestra información de Docker de forma visual
-# https://github.com/santimartinezzgb/dockerinfo
 
 VERSION="2.0.0"
 
