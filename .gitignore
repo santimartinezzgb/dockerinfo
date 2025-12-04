@@ -1,0 +1,48 @@
+# Archivos temporales y de respaldo
+*.tmp
+*.log
+*.swp
+*.swo
+*~
+*.bak
+.*.sw[a-z]
+
+# Salidas generadas por el script
+docker-status*.json
+docker-info*.txt
+*.output
+
+# Sistema operativo
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# IDEs y editores
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+.project
+.settings/
+*.code-workspace
+
+# Variables de entorno y configuración local
+.env
+.env.local
+.env.*.local
+config.local
+
+# Archivos de prueba locales
+test/
+tests/local/
+*.test.sh
+debug/
+
+# Git
+*.orig
+*.rej

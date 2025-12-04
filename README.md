@@ -1,63 +1,52 @@
-# Script Bash de Información de Docker para _LINUX_
+# DockerInfo
 
-Este es un script Bash simple que muestra información clave de Docker en tu sistema:
+Script simple y visual para mostrar información de Docker en tu terminal.
 
-- 📦 Imágenes de Docker  
-- ▶️ Contenedores en ejecución  
-- 📋 Todos los contenedores (en ejecución y detenidos)
+## Características
 
-## Requisitos
+- Muestra imágenes Docker
+- Contenedores activos y detenidos
+- Volúmenes
+- Redes
+- Salida con colores
+- Tres modos: normal, compacto y JSON
 
-- Docker instalado y en ejecución  
-- Shell Bash (probado con Bash 4+)
-
-## Qué Hace
-
-El script muestra:
-
-1. **Todas las imágenes de Docker** (`docker images`)
-2. **Contenedores en ejecución** (`docker ps`)
-3. **Todos los contenedores** (`docker ps -a`)
-
-## Cómo Usarlo
-
-1. **Clonar el repositorio**:
-
-   ```bash
-   git clone https://github.com/santimartinezzgb/dockerinfo.git
-   cd dockerinfo
-   ```
-2. **Hacer el script ejecutable**
+## Instalación
 
 ```bash
+git clone https://github.com/santimartinezzgb/dockerinfo.git
+cd dockerinfo
 chmod +x dockerinfo.sh
 ```
 
-3. **Ejecutar el script**
+## Uso
 
 ```bash
+# Modo normal (por defecto)
 ./dockerinfo.sh
+
+# Modo compacto
+./dockerinfo.sh -c
+
+# Salida JSON
+./dockerinfo.sh -j
+
+# Ver ayuda
+./dockerinfo.sh -h
 ```
 
-4. **Crear un "acceso directo"**
-   
-   Crear en .bashrc un método para poder acceder a la información que proporciona este comando desde cualquier directorio.
-   ```bash
-   dockerinfo() {
-    local script_dir="tu-ruta/dockerinfo"
-    if [[ -x "$script_dir/dockerinfo.sh" ]]; then
-        "$script_dir/dockerinfo.sh"
-    else
-        echo "Error: no se puede ejecutar $script_dir/dockerinfo.sh"
-    fi
-   }
-   ```
-   
+## 📋 Requisitos
 
-## Autor
-Santi Martínez
+- Docker instalado y ejecutándose
+- Bash 4.0+
+- Permisos para acceder a Docker
 
-### Linkedin
-https://www.linkedin.com/in/santiago-mart%C3%ADnez-gonz%C3%A1lez-besada-bb6467335/
+## 📄 Licencia
 
+MIT License - ver archivo [LICENSE](LICENSE)
 
+## 👤 Autor
+
+**Santiago Martinez** - [@santimartinezzgb](https://github.com/santimartinezzgb)
+This project is licensed under the MIT License. See the LICENSE
+file for more details.
