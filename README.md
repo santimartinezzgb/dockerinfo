@@ -35,11 +35,28 @@ chmod +x dockerinfo.sh
 ./dockerinfo.sh -h
 ```
 
+### Recomendación personal de uso
+
+Copia y pega el siguiente fragmento en tu .bashrc
+
+```bash
+# INFORMACIÓN LOCAL DE DOCKER - Acceso rápido
+dockerinfo() {
+    ~/tu-ruta/dockerinfo/dockerinfo.sh "$@"
+}
+# Alias para acceso directo
+alias di='dockerinfo'
+alias dic='dockerinfo -c'
+alias dij='dockerinfo -j'
+```
+
+
 ## Requisitos
 
 - Docker instalado y ejecutándose
 - Bash 4.0+
 - Permisos para acceder a Docker
+
 
 ## Licencia
 
