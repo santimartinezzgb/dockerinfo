@@ -16,7 +16,7 @@ Script simple y visual para mostrar información de Docker en tu terminal.
 ```bash
 git clone https://github.com/santimartinezzgb/dockerinfo.git
 cd dockerinfo
-chmod +x dockerinfo.sh
+chmod 744 dockerinfo.sh
 ```
 
 ## Uso
